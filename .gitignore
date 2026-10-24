@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+supabase/.temp/
+supabase/.branches/
+*.mp3
+EOFcat > .gitignore <<'EOF'
+.env
+.env.*
+!.env.example
+supabase/.temp/
+supabase/.branches/
+*.mp3
